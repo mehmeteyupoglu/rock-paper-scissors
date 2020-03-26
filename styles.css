@@ -1,0 +1,130 @@
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+header {
+  text-align: center;
+  background-color: white;
+}
+
+header > h1 {
+  font-family: asap, sans-serif;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+body {
+  background-color: #24272E;
+}
+
+.score-board {
+  border: 4px solid white;
+  width: 200px;
+  margin: 20px auto;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 46px;
+  font-family: asap, sans-serif;
+  border-radius: 4px;
+  position: relative;
+}
+
+.badge {
+  background: #E2584D;
+  font-size: 14px;
+  font-family: asap, sans-serif;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+#user-board {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+}
+
+#computer-board {
+  position: absolute;
+  top: 30px;
+  right: -28px;
+}
+
+.result {
+  margin: 50px 0;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.choice {
+  display: inline-block;
+  margin: 0 30px;
+  border: 4px solid white;
+  border-radius: 50%;
+  font-size: 100px;
+  padding: 20px;
+  transition: all 0.7s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.action {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 35px;
+  font-family: Asap, sans-serif;
+  padding: 55px 0;
+  color: white;
+  font-weight: bold;
+}
+
+footer{
+  padding: 15px 0 5px;
+  background: white;
+  text-align: center;
+  margin: 10px auto 0;
+}
+
+footer > p {
+  font-size: 20px;
+  font-family: Asap, sans-serif;
+  font-weight: 400;
+}
+
+.icons {
+  font-size: 20px;
+  padding: 10px 0 ;
+  margin: 10px 20px;
+}
+
+.icon {
+  margin: 0 7px;
+  color: black;
+}
+
+.icon:hover {
+  transform: scale(1.6);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
